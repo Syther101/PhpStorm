@@ -1,0 +1,38 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c0ad554-4201-4ec3-97c3-68c301219c3b" name="DEV-Board App Standalone" url="http://skynet.applinskinner.com">
+        <fileTransfer host="skynet.applinskinner.com" port="22" privateKey="$USER_HOME$/.ssh/devs@applinskinner.com" rootFolder="/home/applinskinner/boardapp.applinskinner.com/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="817b9fbd-6e46-4347-851e-2e5a059beaf3" name="ryanholder.co.uk" url="http://shell.gridhost.co.uk">
+        <fileTransfer host="shell.gridhost.co.uk" port="22" rootFolder="/var/sites/r/ryanholder.co.uk/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c8cb93fd-c14b-46a2-8fe0-1ef7cd088480" name="LIVE-Community_Action_Norfolk" url="http://192.166.136.21">
+        <fileTransfer host="192.166.136.21" port="21" rootFolder="/web">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d2e39f7a-7c0e-4242-ac47-9e3b22355ba9" name="LIVE-ThinkingWisp" url="http://217.72.168.36">
+        <fileTransfer host="217.72.168.36" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
